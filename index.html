@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F8 Project 03 - 01</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <!-- Embed fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header--fixed">
+        <div class="container">
+            <!-- Header main -->
+            <div class="header__top">
+                <!-- Logo -->
+                <a href="/">
+                    <img src="./assets/img/modulars.png" alt="modulars" class="header__top__logo">
+                </a>
+
+                <!-- Navbar -->
+                <nav class="header__top__navbar">
+                    <ul class="header__top__list">
+                        <li class="header__top__item"><a class="header__top__link header__top__link--active" href="#!">Home</a></li>
+                        <li class="header__top__item"><a class="header__top__link" href="#!">About</a></li>
+                        <li class="header__top__item"><a class="header__top__link" href="#!">Blog</a></li>
+                        <li class="header__top__item"><a class="header__top__link" href="#!">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Action -->
+                <a href="#!" class="btn header__top__btn">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Header main -->
+    <header class="hero">
+        <div class="container">
+            <section class="hero__wrap">
+                <div class="hero__content">
+                    <h1 class="hero__content__heading main--heading">We're a creative design agency.</h1>
+                    <p class="hero__content__desc main--desc">A brilliant, modular agency template for startup's build yours toady.</p>
+                    <div class="hero__content__cta">
+                        <a href="#!" class="btn hero__content__btn">Get in touch</a>
+                        <button class="hero__content__action">
+                            <div class="hero__content__watching--circle">
+                                
+                            </div>
+                            <div class="hero__content__watching--btn">
+                                <svg width="8" height="10" viewBox="0 0 8 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.48979 4.22586C8.15106 4.61996 8.13773 5.58212 7.4658 5.95775L1.49682 9.29454C0.824887 9.67017 -0.00170366 9.17755 0.00896126 8.40782L0.103701 1.57014C0.114366 0.800411 0.954284 0.330874 1.61555 0.724974L7.48979 4.22586Z" fill="currentColor"></path>
+                                </svg>
+                            </div>
+                            <span class="hero__content__watching--action">Wacth Video</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Hero media -->
+                <div class="hero__media">
+                    <div class="hero__media--bg-blue"></div>
+                    <figure class="hero__media__images">
+                        <img src="./assets/img/hero-1.png" alt="" class="hero__media__img">
+                        <img src="./assets/img/hero-2.png" alt="" class="hero__media__img">
+                        <img src="./assets/img/hero-3.png" alt="" class="hero__media__img">
+                    </figure>
+                    <svg class="hero__media__design" xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 84 84" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M46.8882 6.31701L49.848 6.80655L45.4206 33.5746C45.8114 33.7129 46.1875 33.8782 46.547 34.0681L63.1192 14.0694L65.4291 15.9836L48.9102 35.918C49.2105 36.254 49.4836 36.6132 49.727 36.9919L74.4359 27.0909L75.5518 29.8756L50.8796 39.762C51.042 40.5005 51.1072 41.2697 51.0631 42.0529L77.7257 46.8149L77.1983 49.7682L50.3716 44.9769C50.1766 45.4263 49.9446 45.8535 49.6801 46.2555L71.0285 63.4752L69.145 65.8103L47.6062 48.4369C47.2391 48.7065 46.8505 48.9466 46.4443 49.1547L57.0985 75.2096L54.3216 76.3451L43.5613 50.0305C43.274 50.0639 42.9831 50.0828 42.6896 50.0864L38.099 77.8415L35.1392 77.3519L39.7298 49.5968C39.1834 49.4035 38.6657 49.1571 38.1817 48.8648L19.4888 71.4227L17.1788 69.5085L35.9277 46.8831C35.704 46.6021 35.4981 46.3072 35.3114 46.0003L8.71779 56.6566L7.60192 53.8719L34.2281 43.2025C34.1561 42.8311 34.1086 42.4524 34.0871 42.0685L6.31984 37.1092L6.8473 34.156L34.4501 39.0858C34.5521 38.7529 34.6734 38.4298 34.8127 38.1176L13.1035 20.6068L14.987 18.2717L36.5085 35.6311C36.7763 35.3588 37.0617 35.1051 37.3626 34.8716L27.0703 9.70153L29.8471 8.56606L40.032 33.4732C40.8063 33.2298 41.623 33.0953 42.4608 33.085L46.8882 6.31701Z" fill="#83A17D"></path>
+                    </svg>
+                    <svg class="hero__media__design" xmlns="http://www.w3.org/2000/svg" width="547" height="363" viewBox="0 0 547 363" fill="none">
+                        <path d="M546 362.016C512 363.516 448.5 346.616 466.5 267.016C489 167.516 483 164.516 341.5 146.516C200 128.516 169.5 66.5002 199.5 24.016C224.753 -11.7445 323 -14.4839 311.5 78.0161C300 170.516 91.5 202.516 1 49.5162" stroke="url(#paint0_linear_0_317)"></path>
+                        <defs>
+                          <linearGradient id="paint0_linear_0_317" x1="-103" y1="-56.0001" x2="486" y2="313" gradientUnits="userSpaceOnUse">
+                            <stop></stop>
+                            <stop offset="0.553176" stop-color="white"></stop>
+                            <stop offset="1" stop-opacity="0"></stop>
+                          </linearGradient>
+                        </defs>
+                    </svg>
+                    <svg class="hero__media__design" xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 84 84" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M46.8882 6.31701L49.848 6.80655L45.4206 33.5746C45.8114 33.7129 46.1875 33.8782 46.547 34.0681L63.1192 14.0694L65.4291 15.9836L48.9102 35.918C49.2105 36.254 49.4836 36.6132 49.727 36.9919L74.4359 27.0909L75.5518 29.8756L50.8796 39.762C51.042 40.5005 51.1072 41.2697 51.0631 42.0529L77.7257 46.8149L77.1983 49.7682L50.3716 44.9769C50.1766 45.4263 49.9446 45.8535 49.6801 46.2555L71.0285 63.4752L69.145 65.8103L47.6062 48.4369C47.2391 48.7065 46.8505 48.9466 46.4443 49.1547L57.0985 75.2096L54.3216 76.3451L43.5613 50.0305C43.274 50.0639 42.9831 50.0828 42.6896 50.0864L38.099 77.8415L35.1392 77.3519L39.7298 49.5968C39.1834 49.4035 38.6657 49.1571 38.1817 48.8648L19.4888 71.4227L17.1788 69.5085L35.9277 46.8831C35.704 46.6021 35.4981 46.3072 35.3114 46.0003L8.71779 56.6566L7.60192 53.8719L34.2281 43.2025C34.1561 42.8311 34.1086 42.4524 34.0871 42.0685L6.31984 37.1092L6.8473 34.156L34.4501 39.0858C34.5521 38.7529 34.6734 38.4298 34.8127 38.1176L13.1035 20.6068L14.987 18.2717L36.5085 35.6311C36.7763 35.3588 37.0617 35.1051 37.3626 34.8716L27.0703 9.70153L29.8471 8.56606L40.032 33.4732C40.8063 33.2298 41.623 33.0953 42.4608 33.085L46.8882 6.31701Z" fill="#83A17D"></path>
+                    </svg>
+                    <svg class="hero__media__design" xmlns="http://www.w3.org/2000/svg" width="547" height="363" viewBox="0 0 547 363" fill="none">
+                        <path d="M546 362.016C512 363.516 448.5 346.616 466.5 267.016C489 167.516 483 164.516 341.5 146.516C200 128.516 169.5 66.5002 199.5 24.016C224.753 -11.7445 323 -14.4839 311.5 78.0161C300 170.516 91.5 202.516 1 49.5162" stroke="url(#paint0_linear_0_317)"></path>
+                        <defs>
+                          <linearGradient id="paint0_linear_0_317" x1="-103" y1="-56.0001" x2="486" y2="313" gradientUnits="userSpaceOnUse">
+                            <stop></stop>
+                            <stop offset="0.553176" stop-color="white"></stop>
+                            <stop offset="1" stop-opacity="0"></stop>
+                          </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <main>
+        <section class="clients">
+            <div class="container">
+                <div class="clients__row">
+                    <!-- Clients Logo 1 -->
+                    <div class="clients__logo">
+                        <a href="#!" class="clients__logo__link"><span class="clients__logo__brands">Google</span></a>
+                    </div>
+
+                    <!-- Clients Logo 2 -->
+                    <div class="clients__logo">
+                        <a href="#!" class="clients__logo__link">
+                            <img src="./assets/img/clients-01.svg" alt="slack" class="clients__logo__image">
+                            <span class="clients__logo__brands">slack</span>
+                        </a>
+                    </div>
+
+                    <!-- Clients Logo 3 -->
+                    <div class="clients__logo">
+                        <a href="#!" class="clients__logo__link">
+                            <img src="./assets/img/clients-02.svg" alt="Agworld" class="clients__logo__image">
+                            <span class="clients__logo__brands">Agworld</span>
+                        </a>
+                    </div>
+
+                    <!-- Clients Logo 4 -->
+                    <div class="clients__logo">
+                        <a href="#!" class="clients__logo__link"><span class="clients__logo__brands">RioTinto</span></a>
+                    </div>
+
+                    <!-- Clients Logo 5 -->
+                    <div class="clients__logo">
+                        <a href="#!" class="clients__logo__link">
+                            <img src="./assets/img/clients-03.svg" alt="HEROKU" class="clients__logo__image">
+                            <span class="clients__logo__brands">HEROKU</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="services">
+            <div class="container">
+                <div class="services__wrap">
+                    <div class="services__wrap__title">
+                        <p class="services__wrap__title--primary primary--title">OUR SERVICES</p>
+                    </div>
+                    <div class="services__wrap__content">
+                        <h2 class="services__wrap__heading primary--heading">We offer a wide range of design services</h2>
+                        <div class="services__wrap__content__controls controls">
+                            <button class="control--btn">
+                                <svg width="22" height="13" viewBox="0 0 22 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21 6.82353H0.999999M0.999999 6.82353L6.29412 1M0.999999 6.82353L6.29412 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </button>
+                            <button class="control--btn">
+                                <svg width="22" height="12" viewBox="0 0 22 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 6.29412H21M21 6.29412L15.7059 1M21 6.29412L15.7059 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Services List -->
+                    <section class="services__wrap__list">
+                        <div class="services__wrap__item">
+                            <a href="#!" class="services__wrap__item__link"><img class="services__wrap__item__image" src="./assets/img/servies-01.png" alt="Branding"></a>
+                            <div class="services__wrap__item__content">
+                                <h3 class="services__wrap__item__heading">Branding</h3>
+                                <p class="servies__wrap__item__desc">Create beautiful Agency website with Boluethat converts more visitors than any website.</p>
+                            </div>
+                        </div>
+
+                        <div class="services__wrap__item">
+                            <a href="#!" class="services__wrap__item__link"><img class="services__wrap__item__image" src="./assets/img/servies-02.png" alt="Web Design"></a>
+                            <div class="services__wrap__item__content">
+                                <h3 class="services__wrap__item__heading">Web Design</h3>
+                                <p class="servies__wrap__item__desc">Create beautiful Agency website with Boluethat converts more visitors than any website.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="services__wrap__item">
+                            <a href="#!" class="services__wrap__item__link"><img class="services__wrap__item__image" src="./assets/img/servies-03.png" alt="Graphic Design"></a>
+                            <div class="services__wrap__item__content">
+                                <h3 class="services__wrap__item__heading">Graphic Design</h3>
+                                <p class="servies__wrap__item__desc">Create beautiful Agency website with Boluethat converts more visitors than any website.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <section class="about__inner__left">
+                        <svg class="about__inner__left__design" xmlns="http://www.w3.org/2000/svg" width="76" height="76" viewBox="0 0 76 76" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M40.7679 73.7412L37.7721 73.899L36.3451 46.8046C35.9339 46.7535 35.5312 46.6728 35.1394 46.5647L23.2508 69.6569L20.5836 68.2837L32.4339 45.2659C32.0684 45.0022 31.7243 44.7099 31.4051 44.3923L9.40032 59.3708L7.71222 56.8908L29.6843 41.9346C29.3671 41.2483 29.1382 40.511 29.0129 39.7367L1.95012 40.8142L1.83077 37.8166L29.06 36.7325C29.1539 36.2516 29.2887 35.7845 29.4606 35.3351L4.91138 23.104L6.24921 20.4189L31.0174 32.759C31.3181 32.4168 31.646 32.0987 31.998 31.8082L15.9949 8.6507L18.4629 6.94516L34.6255 30.3335C34.899 30.2391 35.179 30.1582 35.4649 30.0916L33.9853 1.99864L36.9811 1.84086L38.4607 29.9338C39.0361 30.0053 39.5948 30.1347 40.1304 30.3163L53.5403 4.26921L56.2076 5.64241L42.7575 31.7677C43.0362 31.9939 43.3006 32.2376 43.5488 32.4972L67.2318 16.3763L68.9199 18.8563L45.2079 34.9969C45.358 35.3442 45.4857 35.704 45.5892 36.0743L73.7738 34.9521L73.8931 37.9498L45.8754 39.0653C45.8473 39.4124 45.7982 39.754 45.7293 40.0888L70.6937 52.5266L69.3559 55.2118L44.6072 42.8814C44.4042 43.2049 44.18 43.514 43.9363 43.8067L59.3958 66.1777L56.9278 67.8833L41.6297 45.7459C40.9258 46.15 40.157 46.4567 39.3409 46.6468L40.7679 73.7412Z" fill="#83A17D"></path>
+                        </svg>
+                        <svg class="about__inner__left__design" xmlns="http://www.w3.org/2000/svg" width="461" height="425" viewBox="0 0 461 425" fill="none">
+                            <path d="M460.801 424.491C427.499 418.557 369.615 388.251 404.496 314.498C448.099 222.306 442.937 218.074 309.647 169.723C176.358 121.373 159 52.0001 198.749 19.2986C232.544 -8.50494 326.949 8.60296 295.548 96.3573C264.146 184.112 54.9333 169.971 0.657194 0.99129" stroke="url(#paint0_linear_0_229)"></path>
+                            <defs>
+                              <linearGradient id="paint0_linear_0_229" x1="-77.1063" y1="-124.593" x2="416.003" y2="360.906" gradientUnits="userSpaceOnUse">
+                                <stop></stop>
+                                <stop offset="0.553176" stop-color="white"></stop>
+                                <stop offset="1" stop-opacity="0"></stop>
+                              </linearGradient>
+                            </defs>
+                        </svg>
+                        <div class="about__inner__left__media">
+                            <img src="./assets/img/about-1.png" alt="about-1" class="about__inner__left__image">
+                            <img src="./assets/img/about-2.png" alt="about-12" class="about__inner__left__image">
+                        </div>
+                        <div class="about__inner__left__card--body">
+                            <h3 class="about__inner__left__card--body__heading">
+                                All Desingners
+                            </h3>
+                            <p class="about__inner__left__card--body__desc">
+                                Total Balance
+                            </p>
+                            <p class="about__inner__left__card--body__percent">40%</p>
+                            <div class="about__inner__left__card--body__loading--full">
+                                <div class="about__inner__left__card--body__loading--persent"></div>
+                            </div>
+                            <p class="about__inner__left__card--body__loading--span">Loading...</p>
+                            <div class="about__inner__left__card--body__color--parent">
+                                <div class="about__inner__left__card--body__color--child--black"></div>
+                            </div>
+                            <div class="about__inner__left__card--body__teams">
+                                <p class="about__inner__left__card--body__teams--text">Teams:</p>
+                                <div class="about__inner__left__card--body__teams--avatar">
+                                    <img src="./assets/img/about-avatar-01.png" alt="about-avatar-01" class="about__inner__left__card--body__teams--avatar__item">
+                                    <img src="./assets/img/about-avatar-02.png" alt="about-avatar-02" class="about__inner__left__card--body__teams--avatar__item">
+                                    <img src="./assets/img/about-avatar-03.png" alt="about-avatar-03" class="about__inner__left__card--body__teams--avatar__item">
+                                    <img src="./assets/img/about-avatar-04.png" alt="about-avatar-04" class="about__inner__left__card--body__teams--avatar__item">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="about__inner__right">
+                        <p class="about__inner__right__title primary--title">ABOUT US</p>
+                        <h2 class="about__inner__right__heading primary--heading">We are an extention of your creative team</h2>
+                        <p class="about__inner__right__desc">At the start of every project, we cusomizea detailed project plan together with you set exectationns ensure alighment and define key milestones and deiverbles.</p>
+                        <div class="about__inner__right__slogan">
+                            <h3 class="about__inner__right__slogan__heading primary--heading">48%</h3>
+                            <p class="about__inner__right__slogan__desc">Are you strive for two things in design simplicity and clarity. Great design is born of those two things 
+                            </p>
+                        </div>
+                        <div class="about__inner__right__slogan">
+                            <h3 class="about__inner__right__slogan__heading primary--heading">26%</h3>
+                            <p class="about__inner__right__slogan__desc">Are you strive for two things in design simplicity and clarity. Great design is born of those two things 
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process -->
+        <section class="process">
+            <div class="container">
+                <div class="process__inner">
+                    <!-- Process Inner Top -->
+                    <section class="process__inner__top">
+                        <p class="process__inner__top__title primary--title">OUR PROCESS</p>
+                        <h2 class="process__inner__top__heading primary--heading">A simple ,yet effective three step process</h2>
+                    </section>
+
+                    <!-- Process Inner Bottom -->
+                    <section class="process__inner__bottom">
+                        <!-- Process Item 1 -->
+                        <div class="process__inner__bottom__item">
+                            <h2 class="process__inner__bottom__item__heading">
+                                01.
+                            </h2>
+                            <div class="process__inner__bottom__item__group">
+                                <h2 class="process__inner__bottom__item__title">Project idea</h2>
+                                <a href="#!" class="process__inner__bottom__item__link">Learn More</a>
+                            </div>
+                            <img src="./assets/img/process-01.png" alt="Project idea" class="process__inner__bottom__item__image">
+                            <p class="process__inner__bottom__item__desc">We customse a ensure aligment and difine key mileones and defiverables experience tells us the best solutions are the ones  deated with clients.</p>
+                        </div>
+
+                        <!-- Process Item 2 -->
+                        <div class="process__inner__bottom__item">
+                            <h2 class="process__inner__bottom__item__heading">
+                                02.
+                            </h2>
+                            <div class="process__inner__bottom__item__group">
+                                <h2 class="process__inner__bottom__item__title">Brainstormaing</h2>
+                                <a href="#!" class="process__inner__bottom__item__link">Learn More</a>
+                            </div>
+                            <img src="./assets/img/process-01.png" alt="Brainstormaing" class="process__inner__bottom__item__image">
+                            <p class="process__inner__bottom__item__desc">We customse a ensure aligment and difine key mileones and defiverables experience tells us the best solutions are the ones  deated with clients.</p>
+                        </div>
+
+                        <!-- Process Item 3 -->
+                        <div class="process__inner__bottom__item">
+                            <h2 class="process__inner__bottom__item__heading">
+                                03.
+                            </h2>
+                            <div class="process__inner__bottom__item__group">
+                                <h2 class="process__inner__bottom__item__title">Execution</h2>
+                                <a href="#!" class="process__inner__bottom__item__link">Learn More</a>
+                            </div>
+                            <img src="./assets/img/process-01.png" alt="Execution" class="process__inner__bottom__item__image">
+                            <p class="process__inner__bottom__item__desc">We customse a ensure aligment and difine key mileones and defiverables experience tells us the best solutions are the ones  deated with clients.</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <!-- Media -->
+        <section class="media">
+            <div class="container">
+                <div class="media__inner">
+                    <!-- Media inner top -->
+                    <section class="media__inner__top">
+                        <h2 class="media__inner__top__heading primary--heading">A quick glance of our past projects</h2>
+                        <div class="media__inner__top__content">
+                            <p class="media__inner__top__content__desc">
+                                Are you strive for the fast project simplicity and clarity. Great design is born of those two things. 
+                            </p>
+                            <div class="media__inner__top__content__cta">
+                                <a href="#!" class="media__inner__top__link">Browse all Projects</a>
+                                <svg class="media__inner__top__arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="12" viewBox="0 0 22 12" fill="none">
+                                    <path d="M1 6.29415H21M21 6.29415L15.7059 1.00003M21 6.29415L15.7059 11" stroke="#80A07B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Media inner main -->
+                    <section class="media__inner__main">
+                        <img src="./assets/img/media-01.png " alt="A quick glance of our past projects" class="media__inner__main__image">
+                        <button class="media__inner__main__button--play">
+                            <svg id="playIcon" class="media__inner__main__button--play--icon" width="27" height="30" viewBox="0 0 27 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25.5828 14.1411C26.2513 14.5227 26.256 15.485 25.5912 15.8731L1.65877 29.8459C0.993978 30.2341 0.158321 29.757 0.154581 28.9872L0.0199589 1.2747C0.0162194 0.50491 0.847206 0.0197453 1.51573 0.401403L25.5828 14.1411Z" fill="currentColor"></path>
+                            </svg>
+                        </button>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
